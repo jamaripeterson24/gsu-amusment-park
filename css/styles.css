@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
