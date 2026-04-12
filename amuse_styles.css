@@ -20,7 +20,13 @@ header {
     width: 100%; 
     box-sizing: border-box; 
 }
-
+.ride-image {
+    width: 250px;       
+    height: auto;       
+    float: left;         
+    margin: 10px 20px 10px 0; 
+    border: 2px solid #333;
+}
         
 
 header, nav, footer {
