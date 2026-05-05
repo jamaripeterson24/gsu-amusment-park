@@ -14,6 +14,7 @@ function showRides() {
     let content = "";
 
     for (let i = 0; i < rideNames.length; i++) {
+
         content += `<section>
             <h3>${rideNames[i]}</h3>
             <img src="${rideImages[i]}" class="ride-image" alt="${rideNames[i]}">
