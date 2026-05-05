@@ -2,14 +2,28 @@ function rideInfo(rideID, rideName) {
     alert("You clicked on the ride with the ID of: " + rideID + " and name of: " + rideName);
 }
 function showRides() {
-    // 1. Create the arrays
-    const rideNames = ["Dueling Southern Pride", "Eagle's Flight", "Flying Eagles"];
-    const rideDescriptions = ["A high-speed racing coaster.", "A majestic flight above the park.", "A family-friendly glider experience."];
-    const rideImages = ["images/ride1.jpg", "images/ride2.jpg", "images/ride3.jpg"];
+   function showRides() {
+
+    const rideNames = [
+        "Soar Over Paulson", 
+        "Gus's Flight School", 
+        "Splashin the Boro"
+    ];
+
+    const rideDescriptions = [
+        "A 200-foot vertical drop coaster that gives you an amazing site of our beloved Paulson stadium.", 
+        "A high-speed spinning thrill ride that makes you feel like an eagle.", 
+        "A water adventure perfect for summer here in the boro."
+    ];
+
+    const rideImages = [
+        "Soaring.jpeg.jpg", 
+        "Gus.jpeg.jpg", 
+        "Watercoaster.jpeg.jpg"
+    ];
 
     let content = "";
 
-    
     for (let i = 0; i < rideNames.length; i++) {
         content += `<section>
             <h3>${rideNames[i]}</h3>
@@ -19,7 +33,6 @@ function showRides() {
         </section>`;
     }
 
-    
     document.getElementById("ride-container").innerHTML = content;
 }
 
